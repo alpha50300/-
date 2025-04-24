@@ -1,12 +1,34 @@
 {
-  "name": "discord-bot",
-  "version": "1.0.0",
-  "main": "index.js",
-  "engines": {
-    "node": "18.x"
-  },
-  "dependencies": {
-    "discord.js": "^14.0.0",
-    "express": "^4.18.2"
+    "name": "rok-quiz-bot",
+    "version": "1.0.0",
+    "description": "Discord bot for Rise of Kingdoms quiz questions",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "discord",
+      "bot",
+      "quiz",
+      "rok",
+      "rise-of-kingdoms"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@discordjs/rest": "^1.5.0",
+      "axios": "^1.3.4",
+      "discord-api-types": "^0.37.35",
+      "discord.js": "^14.7.1",
+      "sharp": "^0.31.3",
+      "tesseract.js": "^4.0.2"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.20"
+    },
+    "engines": {
+      "node": ">=16.9.0"
+    }
   }
-}
